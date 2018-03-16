@@ -26,11 +26,14 @@
   border: 1px solid black;
   padding: 10% 0;
   list-style: none;
-  float: left;
-  width: 30%;
+  flex: 0 0 33%;
+  font-family: comic-sans;
+  font-size: 30px;
 }
 
 .ticTacBoard {
+  display: flex;
+  flex-flow: row wrap;
   max-width: 40%;
   margin: 5em auto;
 }
