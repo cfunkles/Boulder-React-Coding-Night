@@ -21,3 +21,16 @@
 .App-intro {
   font-size: large;
 }
+
+.cell {
+  border: 1px solid black;
+  padding: 10% 0;
+  list-style: none;
+  float: left;
+  width: 30%;
+}
+
+.ticTacBoard {
+  max-width: 40%;
+  margin: 5em auto;
+}
